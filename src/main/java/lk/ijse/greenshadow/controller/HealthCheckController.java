@@ -64,11 +64,7 @@ public class HealthCheckController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE')")
-    @GetMapping("/newid")
-    public ResponseUtil getNewStaffId() {
-        return new ResponseUtil("Success", "Retrieved New Staff Id", AppUtil.generateStaffId(staffService.findLastStaffId()));
-    }
+
 
 
 
