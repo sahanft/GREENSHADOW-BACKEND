@@ -17,11 +17,6 @@ public class HealthCheckController {
 
 
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
-    @GetMapping
-    public ResponseUtil getAllEquipments() {
-        return new ResponseUtil("Success", "Retrieved All Equipments", equipmentService.getAllEquipments());
-    }
 
 
 
