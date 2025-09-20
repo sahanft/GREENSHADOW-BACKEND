@@ -57,12 +57,7 @@ public class HealthCheckController {
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE')")
-    @DeleteMapping("/fieldstaff")
-    public ResponseEntity<Void> deleteFieldStaff(@RequestParam("fieldCode") String fieldCode, @RequestParam("staffId") String staffId) {
-        staffService.deleteFieldStaff(fieldCode, staffId);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-    }
+
 
 
 
