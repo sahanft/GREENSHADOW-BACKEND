@@ -44,11 +44,7 @@ public class HealthCheckController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
-    @GetMapping
-    public ResponseUtil getAllStaffs() {
-        return new ResponseUtil("Success", "Retrieved All Staffs", staffService.getAllStaffs());
-    }
+
 
 
 
