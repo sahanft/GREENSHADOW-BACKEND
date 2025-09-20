@@ -21,6 +21,12 @@ public class HealthCheckController {
     }
 }
 
+    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
+    @GetMapping("/{vehicleCode}")
+    public ResponseUtil getVehicleByCode(@PathVariable("vehicleCode") String vehicleCode) {
+        return new ResponseUtil("Success", "Retrieved Vehicle", vehicleService.getVehicleByCode(vehicleCode));
+    }
+
 
 
 
