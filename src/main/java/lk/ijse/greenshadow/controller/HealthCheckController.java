@@ -70,11 +70,7 @@ public class HealthCheckController {
         return new ResponseUtil("Success", "Retrieved New Staff Id", AppUtil.generateStaffId(staffService.findLastStaffId()));
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
-    @GetMapping("/{staffId}")
-    public ResponseUtil getStaffById(@PathVariable("staffId") String staffId) {
-        return new ResponseUtil("Success", "Retrieved Staff", staffService.getStaffById(staffId));
-    }
+
 
 
 
