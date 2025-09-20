@@ -106,4 +106,13 @@ public class FieldController {
     public ResponseUtil getFieldCropsByFieldCode(@PathVariable("fieldCode") String fieldCode) {
         return new ResponseUtil("Success", "Retrieved Field Crops", fieldService.getFieldCropsByFieldCode(fieldCode));
     }
+
+
+    @PreAuthorize("hasRole('MANAGER') or hasRole('SCIENTIST') or hasRole('ADMINISTRATIVE')")
+    @GetMapping("/{fieldCode}")
+    public ResponseUtil getFieldByCode(@PathVariable("fieldCode") String fieldCode) {
+        return new ResponseUtil("Success", "Retrieved Field", fieldService.getFieldByCode(fieldCode));
+    }
+
+
 }
