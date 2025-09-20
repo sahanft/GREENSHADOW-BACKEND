@@ -37,12 +37,7 @@ public class HealthCheckController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE')")
-    @DeleteMapping(path = "/{staffId}")
-    public ResponseEntity<Void> deleteStaff(@PathVariable String staffId) {
-        staffService.deleteStaff(staffId);
-        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-    }
+
 
 
 
