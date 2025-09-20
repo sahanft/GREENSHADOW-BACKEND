@@ -76,11 +76,6 @@ public class HealthCheckController {
         return new ResponseUtil("Success", "Retrieved Staff", staffService.getStaffById(staffId));
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
-    @GetMapping("/fieldstaff/{fieldCode}")
-    public ResponseUtil getFieldStaffByFieldCode(@PathVariable("fieldCode") String fieldCode) {
-        return new ResponseUtil("Success", "Retrieved Field Staff", staffService.getFieldStaffByFieldCode(fieldCode));
-    }
 
 
 
