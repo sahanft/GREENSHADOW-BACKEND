@@ -108,11 +108,5 @@ public class FieldController {
     }
 
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('SCIENTIST') or hasRole('ADMINISTRATIVE')")
-    @GetMapping("/{fieldCode}")
-    public ResponseUtil getFieldByCode(@PathVariable("fieldCode") String fieldCode) {
-        return new ResponseUtil("Success", "Retrieved Field", fieldService.getFieldByCode(fieldCode));
-    }
-
 
 }
