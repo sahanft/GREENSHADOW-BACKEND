@@ -50,12 +50,7 @@ public class HealthCheckController {
         return new ResponseUtil("Success", "Retrieved All Staffs", staffService.getAllStaffs());
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE')")
-    @PostMapping(value = "/fieldstaff", consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> saveFieldStaff(@RequestBody FieldStaffDTO fieldStaffDTO) {
-        staffService.saveFieldStaff(fieldStaffDTO);
-        return new ResponseEntity<>(HttpStatus.CREATED);
-    }
+
 
 
 
