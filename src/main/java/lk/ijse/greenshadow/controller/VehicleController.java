@@ -50,9 +50,9 @@ public class VehicleController {
         return new ResponseUtil("Success", "Retrieved New Vehicle Code", AppUtil.generateVehicleCode(vehicleService.findLastVehicleCode()));
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
-    @GetMapping("/{vehicleCode}")
-    public ResponseUtil getVehicleByCode(@PathVariable("vehicleCode") String vehicleCode) {
-        return new ResponseUtil("Success", "Retrieved Vehicle", vehicleService.getVehicleByCode(vehicleCode));
-    }
+//    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE') or hasRole('SCIENTIST')")
+//    @GetMapping("/{vehicleCode}")
+//    public ResponseUtil getVehicleByCode(@PathVariable("vehicleCode") String vehicleCode) {
+//        return new ResponseUtil("Success", "Retrieved Vehicle", vehicleService.getVehicleByCode(vehicleCode));
+//    }
 }
