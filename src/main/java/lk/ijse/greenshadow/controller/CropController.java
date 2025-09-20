@@ -54,12 +54,12 @@ public class CropController {
         }
     }
 
-//    @PreAuthorize("hasRole('MANAGER') or hasRole('SCIENTIST')")
-//    @DeleteMapping("/{cropCode}")
-//    public ResponseEntity<Void> deleteCrop(@PathVariable("cropCode") String cropCode) {
-//        cropService.deleteCrop(cropCode);
-//        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-//    }
+    @PreAuthorize("hasRole('MANAGER') or hasRole('SCIENTIST')")
+    @DeleteMapping("/{cropCode}")
+    public ResponseEntity<Void> deleteCrop(@PathVariable("cropCode") String cropCode) {
+        cropService.deleteCrop(cropCode);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
 
     @PreAuthorize("hasRole('MANAGER') or hasRole('SCIENTIST') or hasRole('ADMINISTRATIVE')")
     @GetMapping
