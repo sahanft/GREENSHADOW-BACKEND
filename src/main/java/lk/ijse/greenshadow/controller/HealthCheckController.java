@@ -22,13 +22,7 @@ public class HealthCheckController {
 }
 //---------------------------------------------------------------------
 
-    private StaffService staffService;
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE')")
-    @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Void> saveStaff(@RequestBody StaffDTO staffDTO) {
-        staffService.saveStaff(staffDTO);
-        return new ResponseEntity<>(HttpStatus.CREATED);
-    }
+
 
 
 
