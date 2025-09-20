@@ -23,10 +23,5 @@ public class HealthCheckController {
         return new ResponseUtil("Success", "Retrieved All Equipments", equipmentService.getAllEquipments());
     }
 
-    @PreAuthorize("hasRole('MANAGER') or hasRole('ADMINISTRATIVE')")
-    @GetMapping("/newid")
-    public ResponseUtil getNewEquipmentId() {
-        return new ResponseUtil("Success", "Retrieved New Equipment Id", AppUtil.generateEquipmentId(equipmentService.findLastEquipmentId()));
-    }
 
 
