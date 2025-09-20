@@ -22,6 +22,13 @@ public class HealthCheckController {
 }
 
 
+    @PreAuthorize("hasRole('MANAGER') or hasRole('SCIENTIST') or hasRole('ADMINISTRATIVE')")
+    @GetMapping("/fieldcrops/{fieldCode}")
+    public ResponseUtil getFieldCropsByFieldCode(@PathVariable("fieldCode") String fieldCode) {
+        return new ResponseUtil("Success", "Retrieved Field Crops", fieldService.getFieldCropsByFieldCode(fieldCode));
+    }
+
+
 
 
 
