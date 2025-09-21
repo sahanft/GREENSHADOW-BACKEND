@@ -70,9 +70,8 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### report generate page
 ![report genegerate page.png](src%2Fscreenshots%2Freport%20genegerate%20page.png)
 
-[//]: # (### report generate page2)
-
-[//]: # (![report generate page2.png]&#40;src%2Fscreenshots%2Freport%20generate%20page2.png&#41;)
+### report generate page2
+![report generate page2.png](src%2Fscreenshots%2Freport%20generate%20page2.png)
 
 
 
