@@ -46,9 +46,9 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### equipment management page
 ![equipment management page.png](src%2Fscreenshots%2Fequipment%20management%20page.png)
 
-[//]: # (### starf managemnet page)
+### starf managemnet page
 
-[//]: # (![staf management page.png]&#40;src%2Fscreenshots%2Fstaf%20management%20page.png&#41;)
+![staf management page.png](src%2Fscreenshots%2Fstaf%20management%20page.png)
 
 [//]: # (### vehicle managemnet page)
 
