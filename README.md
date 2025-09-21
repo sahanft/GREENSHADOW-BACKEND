@@ -61,6 +61,9 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### field management page
 ![filed management page.png](src%2Fscreenshots%2Ffiled%20management%20page.png)
 
+### field management page2
+![filed management page2.png](src%2Fscreenshots%2Ffiled%20management%20page2.png)
+
 
 
 
