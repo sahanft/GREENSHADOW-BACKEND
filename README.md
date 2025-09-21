@@ -54,9 +54,9 @@ If you manually switch to a different parent and actually want the inheritance, 
 
 ![vehicle management page.png](src%2Fscreenshots%2Fvehicle%20management%20page.png)
 
-[//]: # (### user managemnet page)
+### user managemnet page
 
-[//]: # (![user managemnet page.png]&#40;src%2Fscreenshots%2Fuser%20managemnet%20page.png&#41;)
+![user managemnet page.png](src%2Fscreenshots%2Fuser%20managemnet%20page.png)
 
 
 
