@@ -43,6 +43,21 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### animal and plant managemenet page
 ![animal and plant management page.png](src%2Fscreenshots%2Fanimal%20and%20plant%20management%20page.png)
 
+### equipment management page
+![equipment management page.png](src%2Fscreenshots%2Fequipment%20management%20page.png)
+
+[//]: # (### starf managemnet page)
+
+[//]: # (![staf management page.png]&#40;src%2Fscreenshots%2Fstaf%20management%20page.png&#41;)
+
+[//]: # (### vehicle managemnet page)
+
+[//]: # (![vehicle management page.png]&#40;src%2Fscreenshots%2Fvehicle%20management%20page.png&#41;)
+
+[//]: # (### user managemnet page)
+
+[//]: # (![user managemnet page.png]&#40;src%2Fscreenshots%2Fuser%20managemnet%20page.png&#41;)
+
 
 
 
