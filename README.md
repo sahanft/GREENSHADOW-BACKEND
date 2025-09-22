@@ -37,8 +37,7 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### frontend
 ![fe.png](src%2Fscreenshots%2Ffe.png)
 
-### dashboard
-![dashboard.png](src%2Fscreenshots%2Fdashboard.png)
+
 
 
 
