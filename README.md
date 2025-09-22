@@ -58,8 +58,7 @@ If you manually switch to a different parent and actually want the inheritance, 
 
 ![user managemnet page.png](src%2Fscreenshots%2Fuser%20managemnet%20page.png)
 
-### field management page
-![filed management page.png](src%2Fscreenshots%2Ffiled%20management%20page.png)
+
 
 
 
