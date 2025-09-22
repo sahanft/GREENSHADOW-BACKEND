@@ -34,8 +34,7 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### backend
 ![be.png](src%2Fscreenshots%2Fbe.png)
 
-### frontend
-![fe.png](src%2Fscreenshots%2Ffe.png)
+
 
 
 
