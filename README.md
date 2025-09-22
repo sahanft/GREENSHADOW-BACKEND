@@ -22,7 +22,6 @@ The following guides illustrate how to use some features concretely:
 
 ### Maven Parent overrides
 
-Due to Maven's design, elements are inherited from the parent POM to the project POM.
 
 
 
