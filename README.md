@@ -67,8 +67,7 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### field management page3
 ![field management page3.png](src%2Fscreenshots%2Ffield%20management%20page3.png)
 
-### report generate page
-![report genegerate page.png](src%2Fscreenshots%2Freport%20genegerate%20page.png)
+
 
 
 
