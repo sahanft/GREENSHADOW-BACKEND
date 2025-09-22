@@ -43,8 +43,7 @@ If you manually switch to a different parent and actually want the inheritance, 
 ### animal and plant managemenet page
 ![animal and plant management page.png](src%2Fscreenshots%2Fanimal%20and%20plant%20management%20page.png)
 
-### equipment management page
-![equipment management page.png](src%2Fscreenshots%2Fequipment%20management%20page.png)
+
 
 
 
