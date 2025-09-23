@@ -36,4 +36,10 @@ public class healthEntity  {
 
     public HealthRecord() {}
 
+    public HealthRecord(String serviceName, String status, String details) {
+        this.serviceName = serviceName;
+        this.status = status;
+        this.details = details;
+    }
+
 }
