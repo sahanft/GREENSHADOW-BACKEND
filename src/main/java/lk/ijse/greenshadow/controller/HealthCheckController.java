@@ -31,9 +31,7 @@ public class HealthCheckController {
     public ResponseUtil getHealthRecord(@PathVariable String id) {
         return new ResponseUtil(200, "Health record fetched successfully ✅", "HealthRecord#" + id);
     }
-    public ResponseUtil updateHealthRecord(@PathVariable String id, @RequestBody String updateRequest) {
-        return new ResponseUtil(200, "Health record updated successfully ✅", "UpdatedRecord#" + id + " -> " + updateRequest);
-    }
+
 
 
 
