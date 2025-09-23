@@ -74,4 +74,8 @@ public class healthEntity  {
         this.details = details;
     }
 
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
 }
