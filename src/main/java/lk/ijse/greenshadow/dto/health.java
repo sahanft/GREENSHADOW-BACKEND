@@ -58,6 +58,10 @@ public class Health {
         this.details = details;
     }
 
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
 
 
 }
