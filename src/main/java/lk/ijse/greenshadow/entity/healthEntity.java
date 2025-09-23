@@ -54,4 +54,8 @@ public class healthEntity  {
         return serviceName;
     }
 
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
+    }
+
 }
