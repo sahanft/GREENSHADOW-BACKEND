@@ -13,7 +13,9 @@ package lk.ijse.greenshadow.entity;
 @Table(name = "health_record")
 public class healthEntity  {
 
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
 
 }
