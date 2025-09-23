@@ -46,4 +46,8 @@ public class healthEntity  {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
 }
