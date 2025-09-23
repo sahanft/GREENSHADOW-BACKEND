@@ -50,4 +50,8 @@ public class healthEntity  {
         this.id = id;
     }
 
+    public String getServiceName() {
+        return serviceName;
+    }
+
 }
