@@ -23,6 +23,13 @@ public class HealthRecordDTO {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
+    public HealthRecordDTO() {}
+
+
+    public Long getId() {
+        return id;
+    }
+
 
 
 }
