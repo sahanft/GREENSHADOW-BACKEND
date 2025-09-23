@@ -24,6 +24,9 @@ public class HealthCheckController {
     public ResponseUtil healthCheck() {
         return new ResponseUtil(200, "Application is Healthy ✅", null);
     }
+    public ResponseUtil healthCheck() {
+        return new ResponseUtil(200, "Application is Healthy ✅", null);
+    }
 
 
 }
