@@ -34,6 +34,9 @@ public class HealthCheckController {
     public ResponseUtil updateHealthRecord(@PathVariable String id, @RequestBody String updateRequest) {
         return new ResponseUtil(200, "Health record updated successfully ✅", "UpdatedRecord#" + id + " -> " + updateRequest);
     }
+    public ResponseUtil deleteHealthRecord(@PathVariable String id) {
+        return new ResponseUtil(200, "Health record deleted successfully ✅", "DeletedRecord#" + id);
+    }
 
 
 
