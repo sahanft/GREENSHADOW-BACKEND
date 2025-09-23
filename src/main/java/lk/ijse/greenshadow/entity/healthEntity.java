@@ -42,4 +42,8 @@ public class healthEntity  {
         this.details = details;
     }
 
+    public Long getId() {
+        return id;
+    }
+
 }
