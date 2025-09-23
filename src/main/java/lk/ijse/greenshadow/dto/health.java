@@ -34,6 +34,10 @@ public class Health {
         this.id = id;
     }
 
+    public String getServiceName() {
+        return serviceName;
+    }
+
 
 
 }
