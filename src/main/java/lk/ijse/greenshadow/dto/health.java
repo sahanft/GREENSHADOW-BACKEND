@@ -50,6 +50,10 @@ public class Health {
         this.status = status;
     }
 
+    public String getDetails() {
+        return details;
+    }
+
 
 
 }
