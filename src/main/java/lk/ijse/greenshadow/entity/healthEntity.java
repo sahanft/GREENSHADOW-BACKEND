@@ -20,6 +20,8 @@ public class healthEntity  {
     @Column(name = "service_name", nullable = false, length = 100)
     private String serviceName;
 
+    @Column(nullable = false, length = 50)
+    private String status; // e.g. UP, DOWN, DEGRADED
 
 
 }
