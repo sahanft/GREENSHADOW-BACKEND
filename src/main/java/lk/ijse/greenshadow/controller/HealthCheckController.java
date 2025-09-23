@@ -28,6 +28,9 @@ public class HealthCheckController {
     public ResponseUtil createHealthRecord(@RequestBody String request) {
         return new ResponseUtil(201, "Health record created successfully ✅", request);
     }
+    public ResponseUtil getHealthRecord(@PathVariable String id) {
+        return new ResponseUtil(200, "Health record fetched successfully ✅", "HealthRecord#" + id);
+    }
 
 
 
