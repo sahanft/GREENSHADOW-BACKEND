@@ -42,6 +42,10 @@ public class Health {
         this.serviceName = serviceName;
     }
 
+    public String getStatus() {
+        return status;
+    }
+
 
 
 }
