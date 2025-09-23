@@ -19,7 +19,7 @@ public class HealthCheckController {
 //    public String healthCheck() {
 //        return "Healthy";
 //    }
-
+//----------------------------------------------------------------------------------------
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseUtil healthCheck() {
         return new ResponseUtil(200, "Application is Healthy ✅", null);
