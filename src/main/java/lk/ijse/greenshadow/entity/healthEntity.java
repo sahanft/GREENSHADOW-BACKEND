@@ -17,5 +17,8 @@ public class healthEntity  {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "service_name", nullable = false, length = 100)
+    private String serviceName;
+
 
 }
