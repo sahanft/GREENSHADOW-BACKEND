@@ -66,5 +66,8 @@ public class healthEntity  {
         this.status = status;
     }
 
+    public String getDetails() {
+        return details;
+    }
 
 }
