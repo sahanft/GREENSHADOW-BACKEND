@@ -15,20 +15,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/health")
 public class HealthCheckController {
-//    @GetMapping
-//    public String healthCheck() {
-//        return "Healthy";
-//    }
-//----------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
+    @GetMapping
+    public String healthCheck() {
+        return "Healthy";
+    }
 }
 
 
