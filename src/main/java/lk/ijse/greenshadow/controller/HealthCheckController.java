@@ -25,9 +25,7 @@ public class HealthCheckController {
         return new ResponseUtil(200, "Application is Healthy ✅", null);
     }
 
-    public ResponseUtil createHealthRecord(@RequestBody String request) {
-        return new ResponseUtil(201, "Health record created successfully ✅", request);
-    }
+
 
 
 
