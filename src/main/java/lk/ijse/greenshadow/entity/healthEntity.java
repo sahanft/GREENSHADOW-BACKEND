@@ -26,5 +26,9 @@ public class healthEntity  {
     @Column(columnDefinition = "TEXT")
     private String details;
 
+    @CreationTimestamp
+    @Column(name = "created_at", updatable = false)
+    private LocalDateTime createdAt;
+
 
 }
