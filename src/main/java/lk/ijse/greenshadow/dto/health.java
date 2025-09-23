@@ -54,6 +54,10 @@ public class Health {
         return details;
     }
 
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
 
 
 }
