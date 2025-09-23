@@ -12,6 +12,17 @@ public class HealthRecordDTO {
     @Size(max = 100)
     private String serviceName;
 
+    @NotBlank(message = "status is required")
+    @Size(max = 50)
+    private String status;
+
+
+    private String details;
+
+
+    private LocalDateTime createdAt;
+    private LocalDateTime updatedAt;
+
 
 
 }
